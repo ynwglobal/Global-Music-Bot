@@ -1,0 +1,28 @@
+{
+  "name": "advanced-discord-music-bot",
+  "version": "1.0.0",
+  "description": "A powerful Discord music bot with advanced features",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["discord", "music", "bot", "youtube"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.10.4",
+    "ffmpeg-static": "^5.2.0",
+    "sodium": "^3.0.2",
+    "opus": "^0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
